@@ -200,8 +200,9 @@ section:target{
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     padding : 0 50px;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     justify-content: space-around;
 }
 
