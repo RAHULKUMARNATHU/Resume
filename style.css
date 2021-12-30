@@ -367,6 +367,80 @@ button:focus {
 }
 
 
+/* Experience & Education-Section */
+
+.timeline{
+    position:relative;
+    width:75%;
+    border:2px solid black;
+}
+
+.timeline-box{
+    position:relative;
+    width:40%;
+    margin:5px;
+    left:5%;
+    min-height:150px;
+    border:2px solid black;
+
+}
+
+
+.timeline-box:nth-child(2n){
+    left:53%;
+    
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    content: '';
+    position: absolute;
+    top: 35%;
+    right: -12.5%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: lightgrey;
+    z-index: 1;
+
+}
+
+
+.timeline-box:nth-child(2n)::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -10%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:lightgrey;
+    z-index: 1;
+}
+
+
+
+
+/* TIme-line divider */
+
+.timeline-divider{
+    height:80%;
+    position:absolute;
+    width : 0;
+   border: 2px dashed #0096fa6b;
+    top:8%;
+    left:50%
+    
+    
+    
+}
+
+.timeline-traveller{
+    position:sticky;
+    top:25%;
+    color:#2857a4 ;
+    transform:rotate(90deg);
+    z-index:2;
+}
 
 /* Common Margin Class */
 .mb75px{
